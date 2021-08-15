@@ -1,0 +1,9 @@
+query getPeople($searchText: String, $offset: Int, $limit: Int) {
+  getPeople(searchText: $searchText, offset: $offset, limit: $limit) {
+    id
+    name
+    address
+    email
+    phone_number
+  }
+}
